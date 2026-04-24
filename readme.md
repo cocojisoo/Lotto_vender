@@ -50,9 +50,9 @@
 - [ ] 로또 결과 안내 메시지를 출력한다
 
 ### 예외처리
-- [ ] 입력된 구매 개수 문자열이 숫자가 아닌 경우, `IllegalArgumentException`을 발생시킨다
+- [x] 입력된 구매 개수 문자열이 숫자가 아닌 경우, `IllegalArgumentException`을 발생시킨다
 - [ ] 입력된 구입 금액보다 예산이 부족한 경우, `IllegalArgumentException`을 발생시킨다
-- [ ] 입력된 수동 구매 번호가 1~45의 범위 밖인 경우, `IllegalArgumentException`을 발생시킨다
-- [ ] 입력된 수동 구매 번호가 6개가 아닌 경우, `IllegalArgumentException`을 발생시킨다
-- [ ] 입력된 수동 구매 번호가 숫자가 아닌 경우, `IllegalArgumentException`을 발생시킨다
+- [x] 입력된 수동 구매 번호가 1~45의 범위 밖인 경우, `IllegalArgumentException`을 발생시킨다
+- [x] 입력된 수동 구매 번호가 6개가 아닌 경우, `IllegalArgumentException`을 발생시킨다
+- [x] 입력된 수동 구매 번호가 숫자가 아닌 경우, `IllegalArgumentException`을 발생시킨다
 - [ ] 구매한 로또 개수보다 수동 구매 갯수가 많을 경우, `IllegalArgumentException`을 발생시킨다
